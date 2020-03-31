@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>COVID-19 Blocker</title>
+    </head>
+    <body>
+    <style>
+        body{
+            width:300px; 
+            text-align: center; 
+            padding:10px
+        }
+        hr {
+            border: 0;
+            height: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        body {
+            color:#333;
+        }
+        .number{
+            font-size:24;
+            font-weight: bold;
+        }
+        #reset{
+            text-decoration: none;
+            color:#fff;
+            background-color: #28a745;
+            border-radius: 5px;
+            padding:5px 10px 5px 10px
+        }
+        #reset:hover{
+            background-color:#19692c;
+        }
+    </style>
+        <h1>COVID-19 Blocker</h1>
+        <img src="images/icon64.png">
+        <h5>Developed by <br/>Gvozden Despotovski</h5>
+        <hr/>
+        <p>Posts blocked in this session</p>
+        <p id="this-session" class="number">0</p>
+        <hr/>
+        <p>Total blocked posts</p>
+        <p id="all-time" class="number">0</p>
+        <hr />
+        <p>
+            <a id="reset" href="#reset">
+                Reset all statistics
+            </a>
+        </p>
+        <hr/>
+        <div style="text-align: left;">
+        <h4>Information: </h4>
+        </div>
+        <p style="text-align: justify;">
+            This extension currently supports 3 websites - Facebook, Reddit and Twitter.
+        </p>
+        <p style="text-align: justify;">
+            Disclaimer: COVID-19 Blocker will not work with media files such as images, videos and audio. It also can have misses with textual content due to the nature of this extension.
+        </p>
+        <h5>Do you like this extension?<br/>A couple of bucks on Paypal would help a lot!</h5>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=gvozdeniii%40gmail.com&item_name=Donation&currency_code=EUR&source=url" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal button"></a>
+    <script src="popup.js"></script>
+    </body>
+</html>
